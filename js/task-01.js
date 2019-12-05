@@ -2,7 +2,7 @@
 
 logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
 function logItems(array) {
-  for (i = 1; i < length.logItems; i++) {
+  for (let i = 1; i < length.logItems; i++) {
     console.log(`${i} - ${logItems[i]}`);
   }
 }
