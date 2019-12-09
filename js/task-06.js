@@ -1,17 +1,15 @@
 'use strict';
-let input = 0;
 const numbers = [];
 let total = 0;
-const message = 'Общая сумма чисел равна';
 
 do {
-  let input = prompt('Введите пожалуйста число: ');
-  numbers = numbers.push(input);
+  total = prompt('Введите пожалуйста число: ');
+  numbers = numbers.push(total);
 } while (input !== null);
 
-if (numbers.length > 0) {
+if (numbers.length) {
   for (let number of numbers) {
     total = total + number;
   }
 }
-console.log(`${message}  ${total}`);
+console.log(`Общая сумма чисел равна  ${total}`);
