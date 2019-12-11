@@ -1,14 +1,9 @@
 'use strict';
 let message;
 function formatString(string) {
-  let str_array = string.split('');
+  // let str_array = string.split('');
   //   console.log(str_array);
-  if (string.length < 40) {
-    message = string;
-  } else {
-    message = string.slice(0, 40);
-    message = message.concat('...');
-  }
+  (string.length < 40) ? message = string : message = string.slice(0, 40).concat('...');
   return message;
 }
 

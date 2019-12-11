@@ -1,5 +1,5 @@
 'use strict';
-const numbers = [];
+let numbers = [];
 let total = 0;
 
 do {
