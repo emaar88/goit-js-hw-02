@@ -4,7 +4,7 @@ let total = 0;
 
 do {
   total = prompt('Введите пожалуйста число: ');
-  numbers = numbers.push(total);
+  numbers.push(Number(total));
 } while (total !== null);
 
 if (numbers.length) {
