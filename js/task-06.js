@@ -7,7 +7,7 @@ do {
   numbers.push(Number(total));
 } while (total !== null);
 
-if (numbers.length !== null) {
+if (numbers.length) {
   for (let number of numbers) {
     total = total + number;
   }
