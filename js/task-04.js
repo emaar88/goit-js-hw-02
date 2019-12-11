@@ -1,10 +1,6 @@
 'use strict';
-let message;
 function formatString(string) {
-  // let str_array = string.split('');
-  //   console.log(str_array);
-  (string.length < 40) ? message = string : message = string.slice(0, 40).concat('...');
-  return message;
+  return string.length < 40 ? string : `${string.slice(0, 40)}...`;
 }
 
 console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
