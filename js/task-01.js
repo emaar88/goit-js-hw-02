@@ -1,16 +1,11 @@
 'use strict';
 
-const user = {
-  name: 'Mango',
-  age: 20,
-  hobby: 'html',
-  premium: true,
-};
-
-user[mood] = 'happy';
-user.hobby = 'skydiving';
-user.premium = false;
-
-for (achievements of Object.keys(user)) {
-  achievements;
+function logItems(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(`${i + 1} - ${array[i]}`);
+  }
 }
+
+logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
+
+logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
