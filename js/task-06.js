@@ -14,3 +14,4 @@ if (numbers.length) {
   }
   console.log(`Общая сумма чисел равна  ${total}`);
 }
+}
