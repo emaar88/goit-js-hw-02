@@ -6,9 +6,6 @@ do {
   total = prompt('Введите пожалуйста число: ');
   if (total !== null) {
     numbers.push(+total);
-  } else {
-    continue;
-  }
 } while (total !== null);
 
 if (numbers.length) {
