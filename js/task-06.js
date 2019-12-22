@@ -6,7 +6,9 @@ do {
   total = prompt('Введите пожалуйста число: ');
   if (total !== null) {
     numbers.push(+total);
-} while (total !== null);
+  } 
+}  while (total !== null);
+
 
 if (numbers.length) {
   for (let number of numbers) {
@@ -14,4 +16,4 @@ if (numbers.length) {
   }
   console.log(`Общая сумма чисел равна  ${total}`);
 }
-}
+
